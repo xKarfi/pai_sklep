@@ -1,0 +1,162 @@
+body
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    
+}
+
+#LeftItem 
+{
+background-image: url(http://coleo.themerex.net/wp-content/uploads/2018/01/1-570x518.jpg);
+ height: 500px;
+ width: 500px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ margin: 15px;
+ box-shadow: inset 0 0 0 0 #000;
+ transition: ease-out 0.2s;
+}
+
+#LeftItem:hover
+{
+    cursor: pointer;
+    color: white;
+    box-shadow: inset 500px 0 0 0 rgba(0, 0, 0, 0.356);
+}
+
+p
+{
+    display: flex;
+    flex: 1;
+    transform: rotate(270deg);
+    margin: 11px;
+    font-size: 21px;
+    font-weight: 550;
+}
+
+#RightItem
+{
+    background-image: url(http://coleo.themerex.net/wp-content/uploads/2017/12/cat-2-copyright-1170x514.jpg);
+    background-repeat: no-repeat;
+    height: 235px;
+    width: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 15px;
+    box-shadow: inset 0 0 0 0 #000;
+    transition: ease-out 0.3s;
+}
+
+#RightItem:hover
+{
+    cursor: pointer;
+    color: white;
+    box-shadow: inset 500px 0 0 0 rgba(0, 0, 0, 0.356);
+}
+
+#RightItem p
+{
+    margin-right: 270px;
+}
+
+#SmallItemL
+{
+ background-image: url(http://coleo.themerex.net/wp-content/uploads/2018/01/3_01-570x518.jpg);
+ background-repeat: no-repeat;
+ height: 230px;
+ width: 235px;
+ background-size: cover;
+display: flex;
+flex-direction: row;
+margin: 15px;
+box-shadow: inset 0 0 0 0 #000;
+transition: ease-out 0.5s;
+}
+
+#SmallItemL:hover
+{
+    cursor: pointer;
+    color: white;
+    box-shadow: inset 500px 0 0 0 rgba(0, 0, 0, 0.356);
+}
+#SmallItemR
+{
+    background-image: url(http://coleo.themerex.net/wp-content/uploads/2018/01/4-570x518.jpg);
+    background-repeat: no-repeat;
+    height: 230px;
+    width: 235px;
+    background-size: cover;
+    display: flex;
+    margin: 15px;
+    box-shadow: inset 0 0 0 0 #000;
+    transition: ease-out 0.5s;
+}
+
+#SmallItemR:hover
+{
+    cursor: pointer;
+    color: white;
+    box-shadow: inset 500px 0 0 0 rgba(0, 0, 0, 0.356);
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    flex-flow: wrap;
+}
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.vl
+{
+    border-left: 2px solid red;
+    height: 30px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 320px;
+}
+
+.vl1
+{
+    border-left: 2px solid red;
+    height: 30px;
+    position: absolute;
+    margin-left: 41px;
+    margin-top: 60px;
+}
+
+.vl2
+{
+    border-left: 2px solid red;
+    height: 30px;
+    position: absolute;
+    margin-left: 43px;
+    margin-top: 50px;
+}
+
+.subs
+{
+    display: flex;
+    flex: 1;
+    padding: 8px;
+    margin-right: 17px;
+}
+    
