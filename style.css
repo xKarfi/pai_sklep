@@ -1,16 +1,16 @@
-body
-{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+* {
+    font-family: 'Ubuntu', sans-serif;
 }
-
+body {
+    margin: 0;
+}
 .container
 {
     display: flex;
     flex-direction: row;
     margin-top: 80px;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -159,4 +159,67 @@ transition: ease-out 0.5s;
     padding: 8px;
     margin-right: 17px;
 }
+
+.second_container h1
+{
+    font-size: 42px;
+    margin-left: 170px;
+}
+.second_container h1::before 
+{
+    content: '';
+    background-color: red;
+    height: 1px;
+    width: 30px;
+    display: block;
+    margin: 20px auto;
+}
+.second_container 
+{
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
     
+}
+.glide 
+{
+    margin: 0 auto;
+}
+.glide_photos
+{
+    display: flex;
+    flex: 1;
+    margin-left: 170px;
+    
+}
+.glide_photo
+{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+h3 
+{
+    margin: 0;
+}
+
+.title 
+{
+    color: lightgray;
+    font-size: 13px;
+    margin: 10px;
+}
+
+
+.prize 
+{
+    color: #E01600;
+    font-weight: 700;
+    margin: 10px;
+}
+
+
+
